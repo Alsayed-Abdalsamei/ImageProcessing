@@ -92,6 +92,8 @@ It serves as a hands-on toolkit to understand how images are transformed, enhanc
 ## 📊 Example Outputs
 
 > Add before/after images here for each filter
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/420ac796-bfcf-445f-80a3-5bafca942126" />
+
 
 ---
 
