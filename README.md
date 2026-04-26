@@ -118,7 +118,7 @@ pip install -r requirements.txt
 ```
 
 ```bash id="imgprc3"
-python main.py
+python indexx.py
 ```
 
 ---
