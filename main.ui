@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>4095</width>
+    <height>4000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+
+
+    background-color:#f5f9fc;
+    border-radius: 10px;
+	font: 8pt &quot;Franklin Gothic Medium&quot;;
+	font: 11.9pt &quot;Franklin Gothic Demi&quot;;
+
+
+}
+QLabel{
+    font: 12pt &quot;Franklin Gothic Demi&quot;;
+   
+
+
+}
+QPushButton:hover{
+
+	background-color: rgb(211, 211, 255);
+
+	font: 13pt &quot;Franklin Gothic Demi&quot;;
+}
+*{
+	background-color: rgb(255, 255, 255);
+
+
+}
+QPushButton{
+
+background-color:#f4f8fd;
+}
+
+
+        /* هذا اللون سيبقى بعد الضغط حتى يتم إلغاء الكلاس */
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-30</y>
+      <width>1981</width>
+      <height>1061</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>480</y>
+        <width>351</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 26pt &quot;Franklin Gothic Heavy&quot;;</string>
+      </property>
+      <property name="text">
+       <string>one image</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>1120</x>
+        <y>480</y>
+        <width>371</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 26pt &quot;Franklin Gothic Heavy&quot;;</string>
+      </property>
+      <property name="text">
+       <string>two image</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>70</y>
+        <width>441</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 30pt &quot;Franklin Gothic Heavy&quot;;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Image Processing </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>190</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 30pt &quot;Franklin Gothic Heavy&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Operations</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>340</y>
+        <width>1051</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 20pt &quot;Franklin Gothic Heavy&quot;;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Please choose the type of operation: one image or two images.</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>489</y>
+        <width>2071</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#f5f9fc;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>1589</x>
+        <y>10</y>
+        <width>321</width>
+        <height>961</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: #ffffff;
+border-radius: 19%;
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>860</y>
+         <width>141</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(123, 187, 255);</string>
+       </property>
+       <property name="text">
+        <string>back</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>41</x>
+        <y>10</y>
+        <width>321</width>
+        <height>971</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: #ffffff;
+border-radius: 19%;
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>421</x>
+        <y>330</y>
+        <width>1111</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;
+border-radius: 19%;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="image_input">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>60</y>
+         <width>431</width>
+         <height>501</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 19%;
+background-color:#f5f9fc;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Franklin Gothic Heavy&quot;;</string>
+       </property>
+       <property name="text">
+        <string>input image</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>20</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Franklin Gothic Heavy&quot;;</string>
+       </property>
+       <property name="text">
+        <string>output image</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="image_output">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>60</y>
+         <width>431</width>
+         <height>501</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 19%;
+background-color:#f5f9fc;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_57">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>460</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Adaptive thresholding</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>1610</x>
+        <y>30</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Image Restoration</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_58">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>560</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sobel detector</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_59">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>770</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Image opening</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>1610</x>
+        <y>620</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mathematical Morphology</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_60">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>400</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> Automatic thresholding</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>1610</x>
+        <y>520</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Color image operation</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>1610</x>
+        <y>310</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Image segmentation </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_61">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>250</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Average filterto guss</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_62">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>710</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Image erosion</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_63">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>650</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Image dilation</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_outlier_filter_4">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>190</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>An outlier method</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_101">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>130</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Median filter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_64">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>340</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+
+	font: 12pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Basic Global Thresholding</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_65">
+      <property name="geometry">
+       <rect>
+        <x>1630</x>
+        <y>70</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Average filter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_change_red_3">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>320</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Change red </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_27">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>920</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Median</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>530</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>gray image stretching</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_Eliminate_Red_3">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>380</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Eliminate Red</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>590</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+
+	font: 13pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>gray image Equalization</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_Swap_R_and_G_channels_3">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>440</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Swap from R to G</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_37">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>800</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Maximum</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>71</x>
+        <y>490</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Image histogram </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>71</x>
+        <y>290</y>
+        <width>211</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Color image operation</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>71</x>
+        <y>30</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Point operation</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_divisionimageone_3">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>130</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Division</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_complementimageone_3">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>240</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Complement</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_subtractionimageone_3">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>180</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtraction</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_38">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>680</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Average filter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_39">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>860</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Minimum</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_additionimageone_3">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>70</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Addition</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_40">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>740</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+background-color: rgb(130, 122, 126);
+	color: rgb(255, 255, 255);
+	font: 12pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Laplacian filter</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>71</x>
+        <y>640</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Neighborhood processing</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>98</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 30pt &quot;Franklin Gothic Heavy&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Operations</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_load_imageone_3">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>190</y>
+        <width>391</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+
+color: rgb(255, 255, 255);
+font: 75 27pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(0, 0, 0);
+border-radius: 19%;
+}
+
+QPushButton:hover{
+
+background-color: rgb(112, 112, 112);
+
+font: 75 30pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Load Image</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>30</y>
+        <width>421</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 30pt &quot;Franklin Gothic Heavy&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Image Processing </string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>281</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+border-radius: 19%;
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="pushButton_74">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>461</y>
+         <width>241</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>External boundary</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="buttom_addition_two_imge_3">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>31</y>
+         <width>241</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Addition</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_28">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>651</y>
+         <width>241</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Image averaging</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="buttom_division_two_image_3">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>141</y>
+         <width>241</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Division</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="buttom_subtraction_two_imagee_3">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>241</y>
+         <width>241</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Subtraction</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_76">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>351</y>
+         <width>241</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Internal boundary</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_75">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>551</y>
+         <width>241</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Morphological gradient</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>320</y>
+        <width>1491</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;
+border-radius: 19%;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="img1_input_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>60</y>
+         <width>431</width>
+         <height>501</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 19%;
+background-color:#f5f9fc;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_41">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Franklin Gothic Heavy&quot;;</string>
+       </property>
+       <property name="text">
+        <string>input image 1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_42">
+       <property name="geometry">
+        <rect>
+         <x>1120</x>
+         <y>20</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Franklin Gothic Heavy&quot;;</string>
+       </property>
+       <property name="text">
+        <string>output image</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ouput2image_2">
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>60</y>
+         <width>431</width>
+         <height>501</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 19%;
+background-color:#f5f9fc;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="image_input_9">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>60</y>
+         <width>431</width>
+         <height>501</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius: 19%;
+background-color:#f5f9fc;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_43">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>20</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Franklin Gothic Heavy&quot;;</string>
+       </property>
+       <property name="text">
+        <string>input image 2</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="buttom_load_imageone_7">
+      <property name="geometry">
+       <rect>
+        <x>1200</x>
+        <y>210</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+
+color: rgb(255, 255, 255);
+font: 75 27pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(0, 0, 0);
+border-radius: 19%;
+}
+
+QPushButton:hover{
+
+background-color: rgb(112, 112, 112);
+
+font: 75 30pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Load Image 2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>60</y>
+        <width>141</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(123, 187, 255);</string>
+      </property>
+      <property name="text">
+       <string>back</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttom_load_imageone_8">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>210</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+
+color: rgb(255, 255, 255);
+font: 75 27pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(0, 0, 0);
+border-radius: 19%;
+}
+
+QPushButton:hover{
+
+background-color: rgb(112, 112, 112);
+
+font: 75 30pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>Load Image 1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>60</y>
+        <width>741</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 30pt &quot;Franklin Gothic Heavy&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Image Processing Operations</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>4095</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
