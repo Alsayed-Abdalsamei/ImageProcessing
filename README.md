@@ -92,6 +92,12 @@ It serves as a hands-on toolkit to understand how images are transformed, enhanc
 ## 📊 Example Outputs
 
 > Add before/after images here for each filter
+><img width="1920" height="1080" alt="Screenshot 2026-04-26 153626" src="https://github.com/user-attachments/assets/3f170f55-d2d1-48fe-bfb8-2cc6d0a4d060" />
+
+> <img width="1920" height="1080" alt="Screenshot 2026-04-26 153617" src="https://github.com/user-attachments/assets/27798d1a-a97b-47a9-b9d8-2e5eeb1565ff" />
+
+> <img width="1920" height="1080" alt="Screenshot 2026-04-26 153607" src="https://github.com/user-attachments/assets/93cd64b9-c883-4d17-ae08-d45315d1c71e" />
+
 ><img width="1920" height="1080" alt="Screenshot 2026-04-26 153545" src="https://github.com/user-attachments/assets/c29164ef-22d1-43ac-98cf-64c88441182d" />
 
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c3c0221-1fe0-4bd7-a71e-9e851ab0da3e" />
@@ -100,7 +106,8 @@ It serves as a hands-on toolkit to understand how images are transformed, enhanc
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/649a5b07-832c-42a0-83d2-7b73c5dac932" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2665dc2-d949-473f-b271-2047954a42c3" />
 
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/420ac796-bfcf-445f-80a3-5bafca942126" />
+> <img width="1920" he<img width="1920" height="1080" alt="Screenshot 2026-04-26 153554" src="https://github.com/user-attachments/assets/35ae3456-a35f-4b6c-8db9-d5eafd6ab000" />
+ight="1080" alt="image" src="https://github.com/user-attachments/assets/420ac796-bfcf-445f-80a3-5bafca942126" />
 
 ---
 
