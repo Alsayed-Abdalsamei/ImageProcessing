@@ -92,8 +92,15 @@ It serves as a hands-on toolkit to understand how images are transformed, enhanc
 ## 📊 Example Outputs
 
 > Add before/after images here for each filter
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/420ac796-bfcf-445f-80a3-5bafca942126" />
+><img width="1920" height="1080" alt="Screenshot 2026-04-26 153545" src="https://github.com/user-attachments/assets/c29164ef-22d1-43ac-98cf-64c88441182d" />
 
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c3c0221-1fe0-4bd7-a71e-9e851ab0da3e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a38f6e4f-d804-481b-af10-f7ce1e7d5bac" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6dfadd5-52e1-4c68-bd48-b016e712f667" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/649a5b07-832c-42a0-83d2-7b73c5dac932" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2665dc2-d949-473f-b271-2047954a42c3" />
+
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/420ac796-bfcf-445f-80a3-5bafca942126" />
 
 ---
 
